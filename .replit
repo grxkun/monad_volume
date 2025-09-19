@@ -1,0 +1,6 @@
+run = "node backend/server.js"
+
+[nix]
+  pkgs = [
+    pkgs.nodejs-18_x
+  ]
